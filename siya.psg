@@ -1,5 +1,6 @@
+name RAM
+ram
+id=101
 success=data saved
-
 error=some problem
-
 exception
