@@ -7,6 +7,11 @@ import java.util.Base64.Encoder;
 public class PasswordService {
 
 public static String encode (String txt) {
+
+	//making changes for Bug-101
+	int i=10;
+	int j=20;
+	int k=30;
 	Encoder encoder=Base64.getEncoder();
 	return encoder.encodeToString(txt.getBytes());
 }
